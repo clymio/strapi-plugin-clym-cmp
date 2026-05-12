@@ -30,7 +30,7 @@
     "description": "Integrate the Clym Widget into your Strapi-powered site. Learn more: https://knowledge.clym.io/en/article/clym-plugins-jeagzs/"
   },
   "peerDependencies": {
-    "@strapi/strapi": "^4.0.0"
+    "@strapi/strapi": "^5.0.0"
   },
   "publishConfig": {
     "access": "public"
