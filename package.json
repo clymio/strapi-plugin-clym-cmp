@@ -1,0 +1,38 @@
+{
+  "name": "strapi-plugin-clym-cmp",
+  "version": "1.0.0",
+  "description": "Integrate the Clym Widget into your Strapi-powered site. Learn more: https://knowledge.clym.io/en/article/clym-plugins-jeagzs/",
+  "keywords": [
+    "strapi",
+    "strapi-plugin",
+    "consent",
+    "gdpr",
+    "ccpa",
+    "cmp",
+    "cookie",
+    "clym"
+  ],
+  "homepage": "https://github.com/clymio/strapi-plugin-clym-cmp",
+  "bugs": {
+    "url": "https://github.com/clymio/strapi-plugin-clym-cmp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clymio/strapi-plugin-clym-cmp.git"
+  },
+  "license": "MIT",
+  "author": "Clym Inc. <support@clym.io> (https://clym.io)",
+  "main": "./strapi-server.js",
+  "strapi": {
+    "kind": "plugin",
+    "name": "clym-cmp",
+    "displayName": "Clym CMP",
+    "description": "Integrate the Clym Widget into your Strapi-powered site. Learn more: https://knowledge.clym.io/en/article/clym-plugins-jeagzs/"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
